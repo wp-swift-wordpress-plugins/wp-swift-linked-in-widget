@@ -3,9 +3,13 @@
 A WordPress widget for displaying a linked in profile.
 
 @package   WP_Swift_Linked_In_Widget
+
 @author    Gary Swift
+
 @license   GPL-2.0+
+
 @link      https://github.com/GarySwift
+
 @copyright 2017 Gary Swift
 
 * Plugin Name:       WP Swift: Linked In Widget

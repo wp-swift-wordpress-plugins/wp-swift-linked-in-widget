@@ -1,1 +1,59 @@
-/* This stylesheet is used to style the public view of the widget. */
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,700');
+/* @start LinkedIn widget style */
+div.wp-swift-linked-in-widget {
+  margin-bottom: 17px;
+  background-color: #414141; }
+  div.wp-swift-linked-in-widget .wrapper-top {
+    min-height: 230px;
+    -webkit-background-size: cover;
+            background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat; }
+    div.wp-swift-linked-in-widget .wrapper-top .overlay {
+      float: right;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+      padding: 10px;
+      margin-right: 15px;
+      margin-top: 15px;
+      max-width: 170px;
+      color: #fefefe; }
+      div.wp-swift-linked-in-widget .wrapper-top .overlay h5, div.wp-swift-linked-in-widget .wrapper-top .overlay #home-page-benefits header h4, #home-page-benefits header div.wp-swift-linked-in-widget .wrapper-top .overlay h4 {
+        font-weight: bolder; }
+      div.wp-swift-linked-in-widget .wrapper-top .overlay p {
+        margin: 10px 0; }
+      div.wp-swift-linked-in-widget .wrapper-top .overlay a.button {
+        text-transform: uppercase;
+        font-family: "Oswald", sans-serif;
+        font-size: 1.1rem;
+        padding: 10px 0;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: 100%; }
+  div.wp-swift-linked-in-widget .wrapper-bottom {
+    clear: right;
+    padding: 10px 25px;
+    text-align: center;
+    overflow: hidden; }
+    div.wp-swift-linked-in-widget .wrapper-bottom img {
+      height: auto;
+      width: 100%;
+      max-width: 300px; }
+  div.wp-swift-linked-in-widget p, div.wp-swift-linked-in-widget h6, div.wp-swift-linked-in-widget h5, div.wp-swift-linked-in-widget #home-page-benefits header h4, #home-page-benefits header div.wp-swift-linked-in-widget h4, div.wp-swift-linked-in-widget h4, div.wp-swift-linked-in-widget a.button {
+    margin: 0; }
+
+@media screen and (min-width: 50em) {
+  div.wp-swift-linked-in-widget .wrapper-top .overlay {
+    max-width: 120px; }
+    div.wp-swift-linked-in-widget .wrapper-top .overlay p {
+      display: none; } }
+
+@media screen and (min-width: 64em) {
+  div.wp-swift-linked-in-widget .wrapper-top {
+    min-height: 230px; }
+    div.wp-swift-linked-in-widget .wrapper-top .overlay {
+      max-width: 170px; }
+      div.wp-swift-linked-in-widget .wrapper-top .overlay p {
+        display: block; } }
+
+/* @end LinkedIn widget style */
